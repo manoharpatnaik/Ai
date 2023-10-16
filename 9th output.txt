@@ -1,0 +1,82 @@
+Enter the number of nodes: 5
+Enter the name of node 1: a
+Enter the number of outgoing connections from a: 4
+Enter connected node and weight (e.g., B 5): b 12
+Enter connected node and weight (e.g., B 5): c 10
+Enter connected node and weight (e.g., B 5): d 19
+Enter connected node and weight (e.g., B 5): e 8
+Enter the name of node 2: b
+Enter the number of outgoing connections from b: 4
+Enter connected node and weight (e.g., B 5): a 12
+Enter connected node and weight (e.g., B 5): c 3
+Enter connected node and weight (e.g., B 5): d 7
+Enter connected node and weight (e.g., B 5): e 2
+Enter the name of node 3: c
+Enter the number of outgoing connections from c: 4
+Enter connected node and weight (e.g., B 5): a 10
+Enter connected node and weight (e.g., B 5): b 3
+Enter connected node and weight (e.g., B 5): d 6
+Enter connected node and weight (e.g., B 5): e 20
+Enter the name of node 4: d
+Enter the number of outgoing connections from d: 4
+Enter connected node and weight (e.g., B 5): a 19
+Enter connected node and weight (e.g., B 5): b 7
+Enter connected node and weight (e.g., B 5): c 6
+Enter connected node and weight (e.g., B 5): e 4
+Enter the name of node 5: e
+Enter the number of outgoing connections from e: 4
+Enter connected node and weight (e.g., B 5): a 2
+Enter connected node and weight (e.g., B 5): b 4
+Enter connected node and weight (e.g., B 5): c 1
+Enter connected node and weight (e.g., B 5): d 5
+Enter the starting node: a
+Shortest Path: a -> c -> b -> d -> e -> a
+Shortest Distance: 26
+Remaining Path from a to e: a -> b -> c -> d -> e -> a
+Remaining Distance: 27
+Remaining Path from a to d: a -> b -> c -> e -> d -> a
+Remaining Distance: 59
+Remaining Path from a to e: a -> b -> d -> c -> e -> a
+Remaining Distance: 47
+Remaining Path from a to c: a -> b -> d -> e -> c -> a
+Remaining Distance: 34
+Remaining Path from a to d: a -> b -> e -> c -> d -> a
+Remaining Distance: 40
+Remaining Path from a to c: a -> b -> e -> d -> c -> a
+Remaining Distance: 35
+Remaining Path from a to e: a -> c -> b -> d -> e -> a
+Remaining Distance: 26
+Remaining Path from a to d: a -> c -> b -> e -> d -> a
+Remaining Distance: 39
+Remaining Path from a to e: a -> c -> d -> b -> e -> a
+Remaining Distance: 27
+Remaining Path from a to b: a -> c -> d -> e -> b -> a
+Remaining Distance: 36
+Remaining Path from a to d: a -> c -> e -> b -> d -> a
+Remaining Distance: 60
+Remaining Path from a to b: a -> c -> e -> d -> b -> a
+Remaining Distance: 54
+Remaining Path from a to e: a -> d -> b -> c -> e -> a
+Remaining Distance: 51
+Remaining Path from a to c: a -> d -> b -> e -> c -> a
+Remaining Distance: 39
+Remaining Path from a to e: a -> d -> c -> b -> e -> a
+Remaining Distance: 32
+Remaining Path from a to b: a -> d -> c -> e -> b -> a
+Remaining Distance: 61
+Remaining Path from a to c: a -> d -> e -> b -> c -> a
+Remaining Distance: 40
+Remaining Path from a to b: a -> d -> e -> c -> b -> a
+Remaining Distance: 39
+Remaining Path from a to d: a -> e -> b -> c -> d -> a
+Remaining Distance: 40
+Remaining Path from a to c: a -> e -> b -> d -> c -> a
+Remaining Distance: 35
+Remaining Path from a to d: a -> e -> c -> b -> d -> a
+Remaining Distance: 38
+Remaining Path from a to b: a -> e -> c -> d -> b -> a
+Remaining Distance: 34
+Remaining Path from a to c: a -> e -> d -> b -> c -> a
+Remaining Distance: 33
+Remaining Path from a to b: a -> e -> d -> c -> b -> a
+Remaining Distance: 34
